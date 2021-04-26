@@ -1,0 +1,14 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+@media only screen and (max-width: 1031px){
+    .App{
+        width : 100vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+}
